@@ -1,0 +1,35 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 550px}
+    
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+    
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+  .row.content {height: auto;} 
+}
+.panel{
+    margin: 1.2rem;
+}
+.panel-content{
+    border: 1px solid blue;
+}
+.panel-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.onBase-panel{
+   margin-bottom: 1.5rem;
+   padding: 1em
+}
